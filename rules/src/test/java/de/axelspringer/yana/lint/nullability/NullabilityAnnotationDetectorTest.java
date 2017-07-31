@@ -36,7 +36,7 @@ public class NullabilityAnnotationDetectorTest extends LintDetectorTest {
                                        + "}\n"));
         assertEquals(
                 "src/foo/bar/Example.java:3: Warning: Parameter is missing either @Nullable "
-                + "or @NonNull [NullabilityAnnotationDetector]\n"
+                + "or @NonNull [MissingNullabilityAnnotation]\n"
                 + "public void aMethod(String anObject) {} \n"
                 + "                    ~~~~~~~~~~~~~~~\n"
                 + "0 errors, 1 warnings\n", result);
@@ -87,7 +87,7 @@ public class NullabilityAnnotationDetectorTest extends LintDetectorTest {
                                        + "}\n"));
         assertEquals(
                 "src/foo/bar/Example.java:3: Warning: Return type is missing either @Nullable "
-                + "or @NonNull [NullabilityAnnotationDetector]\n"
+                + "or @NonNull [MissingNullabilityAnnotation]\n"
                 + "public String aMethod(@android.support.annotation.Nullable String anObject) { return \"\"; } \n"
                 + "       ~~~~~~\n"
                 + "0 errors, 1 warnings\n", result);
@@ -103,7 +103,7 @@ public class NullabilityAnnotationDetectorTest extends LintDetectorTest {
 
         assertEquals(
                 "src/foo/bar/Example.java:3: Warning: Field type is missing either @Nullable "
-                + "or @NonNull [NullabilityAnnotationDetector]\n"
+                + "or @NonNull [MissingNullabilityAnnotation]\n"
                 + "public String aString = \"\";}\n"
                 + "~~~~~~~~~~~~~~~~~~~~~~~~~~~\n"
                 + "0 errors, 1 warnings\n", result);

@@ -22,9 +22,11 @@ import java.util.List;
 public class NullabilityAnnotationDetector extends Detector
         implements Detector.JavaPsiScanner {
 
+    private static final String ID = "MissingNullabilityAnnotation";
+
     @NonNull
     public static final Issue ISSUE = Issue.create(
-            NullabilityAnnotationDetector.class.getSimpleName(),
+            ID,
             String.format("References must be annotated with @%1$sNullable or @%1$sNonNull.",
                           SdkConstants.SUPPORT_ANNOTATIONS_PREFIX),
             "This Rule is used to try to enforce @Nullable and @NonNull annotations",

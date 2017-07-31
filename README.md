@@ -1,10 +1,15 @@
-### README 
+
+Introduction
+=============
 
 This repository has lint rules that are used by upday's day to day development work.
 
 
+Lint Rules
+----------
 
-#### MissingNullabilityAnnotation
+##### MissingNullabilityAnnotation
+
 Checks for missing Android support @NonNull or @Nullable annotations in:
 * Class fields and properties.
 * Return types in methods.
@@ -12,7 +17,8 @@ Checks for missing Android support @NonNull or @Nullable annotations in:
 
 
 
-#### Usage
+Usage
+-----
 
 In your build.gradle file
 ```
@@ -31,7 +37,8 @@ In your build.gradle file
 
 
 
-#### License
+License
+-------
 
 ```
 /*

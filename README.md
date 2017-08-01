@@ -10,7 +10,7 @@ Lint Rules
 
 ##### MissingNullabilityAnnotation
 
-Checks for missing Android support @NonNull or @Nullable annotations in:
+Checks for missing Android support `@NonNull` or `@Nullable` annotations in:
 * Class fields and properties.
 * Return types in methods.
 * Methods parameters
@@ -31,7 +31,7 @@ In your build.gradle file
  
 
  dependencies {
-    compile 'de.axelspringer.yana:lint-rules:0.1@aar'
+    compile 'com.upday.android:lint-rules:0.1@aar'
  }
 ```
 

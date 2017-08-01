@@ -25,7 +25,7 @@ dependencies {
 jar {
     manifest {
         attributes 'Manifest-Version': 1.0
-        attributes 'Lint-Registry': 'de.axelspringer.yana.lint.YanaLintRegistry'
+        attributes 'Lint-Registry': 'com.upday.android.lint.YanaLintRegistry'
     }
 }
 

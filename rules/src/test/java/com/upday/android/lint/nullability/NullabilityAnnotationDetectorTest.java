@@ -1,4 +1,4 @@
-package de.axelspringer.yana.lint.nullability;
+package com.upday.android.lint.nullability;
 
 import com.android.tools.lint.checks.infrastructure.LintDetectorTest;
 import com.android.tools.lint.detector.api.Detector;

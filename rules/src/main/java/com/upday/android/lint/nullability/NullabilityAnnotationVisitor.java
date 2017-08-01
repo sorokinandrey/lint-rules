@@ -1,4 +1,4 @@
-package de.axelspringer.yana.lint.nullability;
+package com.upday.android.lint.nullability;
 
 import com.android.SdkConstants;
 import com.android.tools.lint.detector.api.JavaContext;

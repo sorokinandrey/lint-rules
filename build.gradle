@@ -12,7 +12,7 @@ buildscript {
 }
 
 ext {
-    group = 'de.axelspringer.yana'
+    group = 'com.upday.android'
     projectName = 'lint-rules'
     version = '0.1'
 }
